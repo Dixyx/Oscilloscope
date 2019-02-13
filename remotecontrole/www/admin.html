@@ -1,0 +1,166 @@
+<html>
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- Automatiquement renseiné lors de la création d'un projet Cordova avec le CLI -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!-- Automatiquement renseiné lors de la création d'un projet Cordova avec le CLI -->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+</head>
+<body> 
+<!---------------------------------------------------------------------------------------------->
+
+
+<!--PREMIER ENCADRÉ-------------------------------------------------------------------------------------------->
+    <div class="container">
+        <div class="row bodyarea">
+            <div class="col s12">
+                    <center><h4>PTUT LP SARII 2018</h4><center>
+            </div>
+        </div>
+
+<!--DEUXIEME ENCADRÉ------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s12 ">
+                <center>
+                    <h5>ADMINISTRATION DES QUESTIONS</h5>
+                </center>
+            </div>
+        </div>
+
+<!--TROISIEME ENCADRÉ------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s6">
+                <center>        
+                    <button id="bluetooth" value="Bluetooth" type="button" class="waves-effect waves-light btn-small blue darken-3" onClick="openBluetooth()">Bluetooth</button>
+                </center>
+            </div>
+
+            <div class="col s6">
+                <center>
+                    <button  id="macButton"  type="button" class="waves-effect waves-light btn-small red darken-4" onClick="openMac()">MAC</button>
+                </center>
+            </div>
+        </div>
+
+      <!-- Modal Structure -->
+      <div id="modalMac" class="modal">
+        <div class="modal-content">
+            <h5>Changer l'adresse MAC de connection</h5>     
+            <center> <input id="macValue" style="color: black;" type="text"> </center>
+        </div>
+        <div class="modal-footer">
+          <button class="waves-effect waves-light btn green darken-4" onClick="setMac()">Valider</button>
+          <button class="waves-effect waves-light btn red accent-4" onClick="closeMac()">Annuler</button>
+        </div>
+      </div>
+        
+<!--QUATRIEME ENCADRÉ-------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s12 buttonColumn">
+                <center> 
+
+
+
+
+        <ul class="collapsible">
+        <li>
+            <div class="black-text collapsible-header">Quels sont les outils nécessaires pour procéder à ces modifications?</div>
+            <div class="collapsible-body"><span>Il vous est fortement conseillé de posséder un éditeur de code (comme par exemple Sublime Text) par soucis de lisibilité de ce que vous allez éditer.</span></div>
+        </li>
+
+        <li>
+      <div class="black-text collapsible-header">Sur quoi dois-je procéder la modification?</div>
+      <div class="collapsible-body"><span>La modification doit s'effectuer directement dans le projet en lui même, plus précisement dans le fichier data.xml se trouvant dans le fichier "www"</span></div>
+        </li>
+
+        <li>
+      <div class="black-text collapsible-header">Je n'ai pas le projet sur mon ordinateur actuellement, où puis-je le récuperer?</div>
+      <div class="collapsible-body"><span>Si vous n'avez pas encore récupéré le projet, ou si vous l'avez égaré sur votre disque dur, tout son contenu est récupérable directement sur notre github à l'adresse suivante: LIEN</span></div>
+        </li>
+
+        <li>
+      <div class="black-text collapsible-header">J'ai le projet sur mon ordinateur, quelle est la marche à suivre pour la modification?</div>
+      <div class="collapsible-body"><span>
+        Lancer votre éditeur de code (par exemple Sublime Text), et ouvrez le fichier "data.xml"
+
+                Si vous désirez ajoutez une question, il vous sera important de respecter ce balisage:
+                    (SCREENSHOT DU MODELE DE BALISAGE)
+                    <Question>
+                    <id>1</id>
+                        <Intitule>Marteau ou couteau?</Intitule>
+                            <Categorie>Osciloscope</Categorie>
+                                <Niveau>Facile</Niveau>
+                                    <Image>img/background.jpg</Image>
+                                        <Reponse></Reponse>
+                    </Question>
+
+                Le language XML est un language à balise, il est donc important de bien comprendre ce qui se situe entre chaque balise
+                ID: Numéro de la question
+                Intitulé: La question en elle même
+                Categorie: Categorie attribuée à la question.
+                Niveau: Niveau de difficulté attribué à la question, doit être un choix parmis ces 3 : Facile, Moyen, Difficile
+                Image: Permet d'ajouter une image qui accompagnera votre question
+                -Si vous ne désirez pas ajouter d'image, merci de ne pas laisser ce champ vide, et d'ajouter un '?'. (IMPORTANT!)
+                -Si vous désirez ajouter une image, n'hésitez pas à faire glisser votre image dans le dossier 'img' de l'application, et de renseigner le champ comme suit: "img/votreNomDimage.Format"
+
+                Reponse: Réponse attendu à cette question
+
+                La Balise 'Image' indique
+            </span></div>
+        </li>
+  </ul>
+        
+
+                </center>
+            </div>
+        </div>
+
+<!--CINQUIEME ENCADRÉ-------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s12 buttonColumn">
+                <center> 
+                    <a href="index.html" class="waves-effect waves-light btn  grey darken-1" role="button">Retour</a> 
+                </center>
+            </div>   
+        </div>
+
+<!--SIXIEME ENCADRÉ-------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s12 ">
+                <center>
+                    Etudiants : ASENSIO, DULHOSTE, LARRIEU, RICHEZ
+                </center>
+            </div>
+        </div>
+
+<!--SÉCURITÉ DE L'ACCES A LA PAGE PAR MOT DE PASSE -------------------------------------------------------------->
+            <script language="Javascript">
+            var password;
+            var passwordAttendu = "Test";
+            password = prompt('Vous essayez de vous connecter a une page protegee, merci de renseigner le mot de passe attendu','');
+            if (password==passwordAttendu)
+                alert('Mot de passe correcte, cliquez sur Ok pour accéder à la page')
+            else{
+                alert('Mot de passe incorrecte');
+                window.location.replace("index.html");
+
+            }
+            </script>
+
+<!---------------------------------------------------------------------------------------------->
+    <!-- Permet d'appeller le CSS pour la mise en forme de l'HTML -->
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <!-- Appel de Javascript -->
+    <script type="application/javascript" src="js/index.js"></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+
+
+</body>
+</html>

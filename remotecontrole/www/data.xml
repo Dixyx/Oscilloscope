@@ -1,0 +1,561 @@
+<Questions>
+<!--DEBUT - GESTION DES QUESTIONS!-->
+
+<!--QUESTION - CATEGORIE: OSCILLOSCOPE!-->
+
+	<!--QUESTION - CATEGORIE: OSCILLOSCOPE - NIVEAU: FACILE !-->	
+	<Question>
+		<id>1</id>
+		<Intitule>Marteau ou couteau?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>img/background.jpg</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>2</id>
+		<Intitule>Barbie ou Ken?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>img/otaku.jpg</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>3</id>
+		<Intitule>Harmonica ou Saxo?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>4</id>
+		<Intitule>Train ou Avion?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>5</id>
+		<Intitule>Le roi Enok ou Snoopdog?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>6</id>
+		<Intitule>Sylvain Malric ou Florian Pellerin Bidalot?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+		<Question>
+		<id>7</id>
+		<Intitule>Pourquoi dit-on que le vendredi 13 porte malheur ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>8</id>
+		<Intitule>Que signifie le mot « manga » ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>9</id>
+		<Intitule>Quelles sont les principales émotions ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>10</id>
+		<Intitule>Pourquoi y a-t-il des jardins sur les toits de Paris ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>11</id>
+		<Intitule>Est-ce qu’il y a Internet partout dans le monde ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+		<Question>
+		<id>12</id>
+		<Intitule>Quelles sont les règles d’or quand on utilise Internet ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>13</id>
+		<Intitule>Pourquoi appelait-on les soldats de la Première Guerre mondiale des poilus ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>14</id>
+		<Intitule>Pourquoi Louis XIV était-il surnommé le Roi-Soleil ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>15</id>
+		<Intitule>Pourquoi Mickey porte-t-il des gants ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>16</id>
+		<Intitule>Que signifie le mot « origami » ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>17</id>
+		<Intitule>D’où viennent les poux ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>18</id>
+		<Intitule>Que représentent les 5 anneaux symbole des Jeux olympiques ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>19</id>
+		<Intitule>Pourquoi y a-t-il 52 cartes dans un jeu de cartes ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>20</id>
+		<Intitule>Quels étaient les types d’hommes pendant la Préhistoire ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Facile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<!--QUESTION - CATEGORIE: OSCILLOSCOPE - NIVEAU: MOYEN !-->
+		<Question>
+		<id>21</id>
+		<Intitule>Quel a été le premier livre publié au monde ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>22</id>
+		<Intitule>Pourquoi le maquillage ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+		<Question>
+		<id>23</id>
+		<Intitule>Est-ce que les loups-garous existent ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>24</id>
+		<Intitule>Est-ce que les animaux ont des sentiments ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>25</id>
+		<Intitule>Comment devient-on footballeur professionnel ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>26</id>
+		<Intitule>C’est quoi exactement une start-up ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>27</id>
+		<Intitule>Pourquoi brûlait-on les sorcières au Moyen Âge ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>28</id>
+		<Intitule>Quels sont les 5 piliers de l’islam ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>29</id>
+		<Intitule>Qu’est-ce qu’un ornithorynque ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>30</id>
+		<Intitule>Qu’appelle-t-on les claquettes ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>31</id>
+		<Intitule>Comment les pirates repéraient-ils les navires à attaquer ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>32</id>
+		<Intitule>Que mange la baleine ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+		<Question>
+		<id>33</id>
+		<Intitule>Comment naît le papillon ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>34</id>
+		<Intitule>Comment les poules fabriquent-elles les coquilles de leurs œufs ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>35</id>
+		<Intitule>Comment fabrique-t-on des vêtements de coton ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>36</id>
+		<Intitule>Comment fabrique-t-on du verre ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>37</id>
+		<Intitule>Qui était Neil Armstrong ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>38</id>
+		<Intitule>Qui était Jules César ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>39</id>
+		<Intitule>Qui était Jeanne d’Arc ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>40</id>
+		<Intitule>Pourquoi le flamant est-il rose ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Moyen</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<!--QUESTION - CATEGORIE: OSCILLOSCOPE - NIVEAU: DIFFICILE !-->
+	<Question>
+		<id>41</id>
+		<Intitule>Qui devenait pirate ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>42</id>
+		<Intitule>Qui étaient les Sioux ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+		<Question>
+		<id>43</id>
+		<Intitule>Pourquoi les Indiens d’Amérique s’appellent-ils comme cela ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>44</id>
+		<Intitule>Qui fabriquait l’armure des chevaliers ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>45</id>
+		<Intitule>Qui étaient les gladiateurs ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>46</id>
+		<Intitule>Où se déroulaient les spectacles de gladiateurs ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>47</id>
+		<Intitule>Pourquoi le chat a-t-il des moustaches ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>48</id>
+		<Intitule>Pourquoi le canard a-t-il les pattes palmées ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>49</id>
+		<Intitule>Pourquoi y a-t-il de la neige en haut des montagnes ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>50</id>
+		<Intitule>Pourquoi est-ce qu’il pleut ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>51</id>
+		<Intitule>Pourquoi les fleurs sentent-elles si bon ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>52</id>
+		<Intitule>Pourquoi les guêpes piquent ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+		<Question>
+		<id>53</id>
+		<Intitule>Pourquoi y a-t-il des plaques sur le sol de Paris ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>54</id>
+		<Intitule>Pourquoi y a-t-il de grands immeubles à Paris ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>55</id>
+		<Intitule>L’homme descend-il du singe ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>56</id>
+		<Intitule>Pourquoi les chevaliers participaient-ils à des tournois ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>57</id>
+		<Intitule>Les volcans crachent-ils tous de la lave ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>58</id>
+		<Intitule>Pourquoi meurt-on ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>59</id>
+		<Intitule>Pourquoi ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+	<Question>
+		<id>60</id>
+		<Intitule>Pourquoi les bébés ne marchent-ils pas ?</Intitule>
+		<Categorie>Osciloscope</Categorie>
+		<Niveau>Difficile</Niveau>
+		<Image>?</Image>
+		<Reponse></Reponse>
+	</Question>
+
+
+<!--SI VOUS DESIREZ AJOUTER UNE QUESTION A LA CATEGORIE PRECEDENTE, MERCI DE LES PLACER AVANT CE POINT, EN SE FIANT AUX MODELES PRESENTÉS!-->
+<!---/////////////////////////////////////////!-->
+
+
+<!--SI VOUS DESIREZ CREER UNE CATEGORIE DE QUESTION, MERCI DE LES PLACER APRES CE POINT, EN SE FIANT AUX MODELES PRESENTÉS!-->
+
+<!--QUESTION - CATEGORIE: NON DEFINIE!-->
+
+
+
+<!--FIN - GESTION DES QUESTIONS!-->
+</Questions>

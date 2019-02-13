@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.buttonColumn { margin-bottom: 15px; margin-top: 15px;}
+
+.bodyarea{
+    background-color: #1D1E1E;
+    background: rgb(29, 30, 30); /* Fallback for older browsers without RGBA-support */
+    background: rgba(29, 30, 30, 0.90);
+
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1D1E1E;
+    padding: 10px;
+    color: white;
+}
+
+input {
+    color: white;
+}
+
+input:focus{
+    color: #4dd0e1;
+}

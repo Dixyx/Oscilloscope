@@ -1,0 +1,184 @@
+<html>
+
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- Automatiquement renseiné lors de la création d'un projet Cordova avec le CLI -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!-- Automatiquement renseiné lors de la création d'un projet Cordova avec le CLI -->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+</head>
+
+<body onLoad="setTimeout(function() {onLoadXmlJs(window.localStorage.getItem('Niveau')); setCategorieButtons();}, 2500);"> 
+
+    <div class="container">
+        <div class="row bodyarea">
+            <div class="col s12">
+                    <center><h4>PTUT LP SARII 2018</h4><center>
+            </div>
+        </div>
+
+
+        <div class="row bodyarea">
+            <div class="col s12 ">
+                <center>
+                    <h5>ACCUEIL</h5>
+                </center>
+            </div>
+        </div>
+
+
+        <div class="row bodyarea">
+            <div class="col s6">
+                <center>
+                    <button id="bluetooth" value="Bluetooth" type="button" class="waves-effect waves-light btn-small blue darken-3" onclick="onDeviceReady()">Bluetooth</button>
+                </center>
+            </div>
+
+            <div class="col s6">
+                <center>
+                    <button  id="macButton"  type="button" class="waves-effect waves-light btn-small red darken-4" onClick="openMac()">MAC</button>
+                </center>
+            </div>
+        </div>
+
+      <!-- Modal Structure -->
+      <div id="modalMac" class="modal">
+        <div class="modal-content">
+            <h5>Changer l'adresse MAC de connection</h5>     
+            <center> <input id="macValue" style="color: black;" type="text"> </center>
+        </div>
+        <div class="modal-footer">
+          <button class="waves-effect waves-light btn green darken-4" onClick="setMac()">Valider</button>
+          <button class="waves-effect waves-light btn red accent-4" onClick="closeMac()">Annuler</button>
+        </div>
+      </div>
+        
+
+        <div class="row bodyarea">
+            <div class="col s12 buttonColumn">
+                <center> <h5 id="position"> </h5> </center>
+            </div>
+            <div class="col s12 buttonColumn">
+                <center> <h5> Veuillez choisir une categorie </h5> </center>
+            </div>
+            <div id ="categorieButtons">
+            <center>
+              <div class="preloader-wrapper small active">
+                <div class="spinner-layer spinner-blue-only">
+                  <div class="circle-clipper left">
+                    <div class="circle"></div>
+                  </div><div class="gap-patch">
+                    <div class="circle"></div>
+                  </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+              </div>
+          </center>
+            </div>
+        </div>
+
+
+        <div class="row bodyarea">
+            <div class="col s12 buttonColumn">
+                <center> 
+                    <a onclick='annuler()' href="index.html" class="waves-effect waves-light btn  red accent-4" role="button">Annuler</a> 
+                </center>
+            </div>   
+        </div>
+
+        <div class="row bodyarea">
+            <div class="col s12 ">
+                <center>
+                    Etudiants : ASENSIO, DULHOSTE, LARRIEU, RICHEZ
+                </center>
+            </div>
+        </div>
+
+        <script>
+
+            function setCategorieButtons(){
+
+                if (window.localStorage.getItem("NbCategorieDone") == null){
+                    window.localStorage.setItem("NbCategorieDone", 0);
+                }
+
+                if (window.localStorage.getItem("NbCategories") == null){
+                    window.localStorage.setItem("NbCategories", window.localStorage.getItem("Categories").split(',').length);
+                }
+
+                var nbCategorieDone = parseInt(window.localStorage.getItem("NbCategorieDone"));
+                var nbCategories = parseInt(window.localStorage.getItem("NbCategories"));
+
+
+                document.getElementById('position').innerHTML = "Avancement "+ nbCategorieDone +"/" + nbCategories;
+
+
+                // If all questions done, display result!
+                if (nbCategorieDone == nbCategories){
+                    window.location = "resultat.html";
+                }
+
+                // Get categories from localstorage into array
+                var categorieArray = window.localStorage.getItem("Categories").split(',');
+                var htmlButtonString = "";
+
+
+                // Generate category buttons
+                for (var i=0; i < categorieArray.length; i++){
+
+                    // Manage if button need to be disable
+                    var disabled="";
+                    if (window.localStorage.getItem("Categorie " + categorieArray[i]) != null){
+                        disabled="disabled";
+                    }
+
+                    // Add html button code into hmtml String variable
+                    htmlButtonString += "<div class='col s4 buttonColumn'> <center> <a id='"+categorieArray[i]+"'  onclick='saveCategorie(this.id)' href='question.html' class='waves-effect waves-light btn indigo darken-1' role='button' "+ disabled+">"+categorieArray[i]+"</a> </center> </div>";
+                }
+
+                // Generate buttons with Html code
+                document.getElementById('categorieButtons').innerHTML = htmlButtonString;
+            } 
+
+
+            // Save categories used
+            function saveCategorie(categorie){
+                window.localStorage.setItem("Categorie " + categorie, "En cours");
+                window.localStorage.setItem("En cours", categorie);
+
+                setQuestionSerie();
+            }
+
+            // Cancel test
+            function annuler(){
+                window.localStorage.clear();
+            }
+        </script>
+
+
+       
+
+    </div>
+
+    <!-- Permet d'appeller le CSS pour la mise en forme de l'HTML -->
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <!-- Appel de Javascript -->
+    <script type="application/javascript" src="js/index.js"></script>
+
+        <!-- Javascript file which allows to manipulate xml data file -->
+    <script type="text/javascript" src="js/xmlManager.js"></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+
+
+
+</html>

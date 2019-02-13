@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- Automatiquement renseiné lors de la création d'un projet Cordova avec le CLI -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!-- Automatiquement renseiné lors de la création d'un projet Cordova avec le CLI -->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+</head>
+<!---------------------------------------------------------------------------------------------->
+
+
+<body> 
+
+<!--PREMIER ENCADRÉ-------------------------------------------------------------------------------------------->
+    <div class="container">
+        <div class="row bodyarea">
+            <div class="col s12">
+                    <center><h4>PTUT LP SARII 2018</h4><center>
+            </div>
+        </div>
+
+
+<!--DEUXIEME ENCADRÉ------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s12 ">
+                <center>
+                    <h5>QUIZZ OSCILLOSCOPE</h5>
+                </center>
+            </div>
+        </div>
+
+
+<!--TROISIEME ENCADRÉ------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s6">
+                <center>        
+                    <button id="bluetooth" value="Bluetooth" type="button" class="waves-effect waves-light btn-small blue darken-3" onClick="openBluetooth()">Bluetooth</button>
+                </center>
+            </div>
+
+            <div class="col s6">
+                <center>
+                    <button  id="macButton"  type="button" class="waves-effect waves-light btn-small red darken-4" onClick="openMac()">MAC</button>
+                </center>
+            </div>
+        </div>
+
+      <!-- Modal Structure -->
+      <div id="modalMac" class="modal">
+        <div class="modal-content">
+            <h5>Changer l'adresse MAC de connection</h5>     
+            <center> <input id="macValue" style="color: black;" type="text"> </center>
+        </div>
+        <div class="modal-footer">
+          <button class="waves-effect waves-light btn green darken-4" onClick="setMac()">Valider</button>
+          <button class="waves-effect waves-light btn red accent-4" onClick="closeMac()">Annuler</button>
+        </div>
+      </div>
+        
+
+<!--QUATRIEME ENCADRÉ-------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s12 buttonColumn">
+                <center> <h5> Veuillez choisir votre niveau de difficulté</h5> </center>
+            </div>
+            <div class="col s4 buttonColumn">
+                <center> <a id="Facile"     onclick='saveLevel(this.id)' href="categorie.html" class="waves-effect waves-light btn green darken-4" role="button" >Facile</a> </center>
+            </div>
+            <div class="col s4 buttonColumn">
+                <center> <a id="Moyen"      onclick='saveLevel(this.id)' href="categorie.html" class="waves-effect waves-light btn orange darken-4" role="button">Moyen</a> </center>
+            </div>
+            <div class="col s4 buttonColumn">
+                <center> <a id="Difficile"  onclick='saveLevel(this.id)' href="categorie.html" class="waves-effect waves-light btn red accent-4" role="button">Difficile</a>  </center>
+            </div>  
+        </div>
+
+
+<!--CINQUIEME ENCADRÉ-------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s12 buttonColumn">
+                <center> 
+                    <a href="index.html" class="waves-effect waves-light btn  grey darken-1" role="button">Retour</a> 
+                </center>
+            </div>   
+        </div>
+
+
+<!--SIXIEME ENCADRÉ-------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s12 ">
+                <center>
+                    Etudiants : ASENSIO, DULHOSTE, LARRIEU, RICHEZ
+                </center>
+            </div>
+        </div>
+
+
+
+
+<!--SAUVEGARDE LOCALE DU NIVEAU SELECTIONÉ----------------------------------------------------------------------------->
+        <script>
+            function saveLevel(niveau){
+                window.localStorage.setItem("Niveau", niveau);
+                var nbCategorie = window.localStorage.getItem("Categories").split(",").length;
+                window.localStorage.setItem("NbCategories", nbCategorie);
+                window.localStorage.setItem("NbCategorieDone", 0);
+            }
+        </script>
+
+    </div>
+
+    <!-- Permet d'appeller le CSS pour la mise en forme de l'HTML -->
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <!-- Appel de Javascript -->
+    <script type="application/javascript" src="js/index.js"></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+
+
+
+</html>
