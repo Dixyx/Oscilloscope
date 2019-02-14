@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/background.jpg"); /*Image de fond*/
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ body {
 }
 
 input {
-    color: white;
+    color: white; /*Couleur du texte: Blanc*/
 }
 
 input:focus{

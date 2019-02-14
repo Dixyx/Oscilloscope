@@ -1,5 +1,4 @@
-<html>
-
+<html>                                                                                                    -->
 <head>
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
@@ -12,9 +11,11 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 </head>
+<!---------------------------------------------------------------------------------------------->
 
 <body> 
 
+<!--PREMIER ENCADRÉ-------------------------------------------------------------------------------------------->
     <div class="container">
         <div class="row bodyarea">
             <div class="col s12">
@@ -23,19 +24,21 @@
         </div>
 
 
+<!--DEUXIEME ENCADRÉ------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
             <div class="col s12 ">
                 <center>
-                    <h5>ACCUEIL</h5>
+                    <h5>RESULTAT</h5>
                 </center>
             </div>
         </div>
 
 
+<!--TROISIEME ENCADRÉ------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
             <div class="col s6">
-                <center>
-                    <button id="bluetooth" value="Bluetooth" type="button" class="waves-effect waves-light btn-small blue darken-3" onclick="onDeviceReady()">Bluetooth</button>
+                <center>        
+                    <button id="bluetooth" value="Bluetooth" type="button" class="waves-effect waves-light btn-small blue darken-3" onClick="openBluetooth()">Bluetooth</button>
                 </center>
             </div>
 
@@ -59,6 +62,7 @@
       </div>
         
 
+<!--QUATRIEME ENCADRÉ-------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
             <div class="col s12 buttonColumn">
                 <center> <h4> Questionnaire terminé! </h4> </center>
@@ -66,6 +70,8 @@
             </div>
         </div>
 
+
+<!--CINQUIEME ENCADRÉ-------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
             <div class="col s12 buttonColumn">
                 <center> 
@@ -75,6 +81,7 @@
         </div>
 
 
+<!--SIXIEME ENCADRÉ-------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
             <div class="col s12 ">
                 <center>
@@ -86,6 +93,8 @@
 
     </div>
 
+
+<!--ANNULATION DU TEST PAR L'UTILISATEUR-------------------------------------------------------->
     <script type="text/javascript">
         // Cancel test
         function annuler(){
@@ -93,6 +102,8 @@
         }
     </script>
 
+
+<!---------------------------------------------------------------------------------------------->
     <!-- Permet d'appeller le CSS pour la mise en forme de l'HTML -->
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <!-- Appel de Javascript -->

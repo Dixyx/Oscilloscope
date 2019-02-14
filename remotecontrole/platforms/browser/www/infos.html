@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
@@ -7,44 +6,98 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
     <!-- Automatiquement renseiné lors de la création d'un projet Cordova avec le CLI -->
     <link rel="stylesheet" type="text/css" href="css/index.css">
+
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+</head>
+<!---------------------------------------------------------------------------------------------->
+
+<body> 
+
+<!--PREMIER ENCADRÉ-------------------------------------------------------------------------------------------->
+    <div class="container">
+        <div class="row bodyarea">
+            <div class="col s12">
+                    <center><h4>PTUT LP SARII 2018</h4><center>
+            </div>
+        </div>
+
+<!--DEUXIEME ENCADRÉ-------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s12 ">
+                <center>
+                    <h5>INFORMATIONS</h5>
+                </center>
+            </div>
+        </div>
+
+<!--TROISIEME ENCADRÉ------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s6">
+                <center>        
+                    <button id="bluetooth" value="Bluetooth" type="button" class="waves-effect waves-light btn-small blue darken-3" onClick="openBluetooth()">Bluetooth</button>
+                </center>
+            </div>
+
+            <div class="col s6">
+                <center>
+                    <button  id="macButton"  type="button" class="waves-effect waves-light btn-small red darken-4" onClick="openMac()">MAC</button>
+                </center>
+            </div>
+        </div>
+
+      <!-- Modal Structure -->
+      <div id="modalMac" class="modal">
+        <div class="modal-content">
+            <h5>Changer l'adresse MAC de connection</h5>     
+            <center> <input id="macValue" style="color: black;" type="text"> </center>
+        </div>
+        <div class="modal-footer">
+          <button class="waves-effect waves-light btn green darken-4" onClick="setMac()">Valider</button>
+          <button class="waves-effect waves-light btn red accent-4" onClick="closeMac()">Annuler</button>
+        </div>
+      </div>
+        
+<!--QUATRIEME ENCADRÉ-------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s12 buttonColumn">
+                <center> Cette application est issue d'un projet réalisé par 4 etudiants de la Licence Professionelle SARII (Systeme Automatise, Reseau et Informatique Industrielle) 
+                <br> 
+            PHOTO ICI
+                <br>
+                Elle est à but ludique afin de mieux appréhender l'utilisation d'un oscilloscope</center>
+            </div>
+
+        </div>
+
+<!--CINQUIEME ENCADRÉ-------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s12 buttonColumn">
+                <center> 
+                    <a href="index.html" class="waves-effect waves-light btn  grey darken-1" role="button">Retour</a> 
+                </center>
+            </div>   
+        </div>
+
+<!--SIXIEME ENCADRÉ-------------------------------------------------------------------------------------------->
+        <div class="row bodyarea">
+            <div class="col s12 ">
+                <center>
+                    Etudiants : ASENSIO, DULHOSTE, LARRIEU, RICHEZ
+                </center>
+            </div>
+        </div>
+
+
+<!---------------------------------------------------------------------------------------------->
     <!-- Permet d'appeller le CSS pour la mise en forme de l'HTML -->
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <!-- Appel de Javascript -->
     <script type="application/javascript" src="js/index.js"></script>
-    <!-- Appel de Javascript -->
-</head>
 
-<body>
-    <div id=titre>
-        <h2>PTUT LP SARII 2018</h2>
-    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 
-    <div id = "stitre">
-        <h3>INFO</h3>
-        <h3>Etudiants : ASENSIO, DULHOSTE, LARRIEU, RICHEZ</h3>
-        <h3>@ MAC Bluetooth: 00:0B:CE:0B:84:F6</h3>
-    </div>
-
-    <div id="banniere">
-        <button type="button" class="button" onclick="onDeviceReady()" style="background-color:#8585e5;">
-        <!-- Crée une balise div (division) afin de creer un bandeau d'informations -->
-        <p id="accueil"></p>
-        <p id="x"></p>
-        <p id="y"></p>
-        <p id="z"></p>
-
-    </div>
-    <br>
-    <div id="bandeau">
-                
-        <p id="etat"></p>
-        Bonjour
-        Ceci est l'histoire d'une groupe de futurs jeunes diplomés qui ont TOUS un stage
-
-        Venez écouter notre histoire fascinante
-        Merci
-        <a href="index.html" target="_blank"> <input type="button" value="RETOUR"> </a>
-    </div>  
 </body>
-
 </html>

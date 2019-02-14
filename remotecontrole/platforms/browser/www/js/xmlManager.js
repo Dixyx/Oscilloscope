@@ -1,7 +1,10 @@
 // Array of questions object
+// On stockera ici toute l'architecture du XML (chaque élement = 1 question)
 var questions = new Array();
 
+// Console.log : permet une sorte de feedback lors des test
 console.log("XmlManager : Load xml data.");
+
 // Generate questions array
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() { if (this.readyState == 4 && this.status == 200) generateXml(this);};
@@ -10,25 +13,29 @@ xhttp.send();
 
 // Function used to generate questions array into question variable.              
 function generateXml(xml) {
-    var xmlDoc = xml.responseXML;
+    var xmlDoc = xml.responseXML; //Requete au fichier - Variable qui contient tout le contenu du XML, qu'on traite par la suite
 
     // Get attributes from xml file into variables
-	var idArray = 			xmlDoc.getElementsByTagName("id");
-	var intituleArray = 	xmlDoc.getElementsByTagName("Intitule");
-	var categorieArray = 	xmlDoc.getElementsByTagName("Categorie");
-	var niveauArray = 		xmlDoc.getElementsByTagName("Niveau");
-	var imageArray = 		xmlDoc.getElementsByTagName("Image");
+	var idArray = 			xmlDoc.getElementsByTagName("id"); 			//1 tableau avec tout les ID
+	var intituleArray = 	xmlDoc.getElementsByTagName("Intitule");	//1 tableau avec tout les intitules
+	var categorieArray = 	xmlDoc.getElementsByTagName("Categorie");	//1 tableau avec tout les categories
+	var niveauArray = 		xmlDoc.getElementsByTagName("Niveau");		//1 tableau avec tout les niveaux
+	var imageArray = 		xmlDoc.getElementsByTagName("Image");		//1 tableau avec tout les images
+	var reponseArray = 		xmlDoc.getElementsByTagName("Reponse");		//1 tableau avec tout les ID
 
-	for (var i = 0; i < idArray.length; i++) {
+	for (var i = 0; i < idArray.length; i++) { //Parcours des tableaux, et liaisons des differents elements pour en faire une question
 
 		var id = 		idArray[i].childNodes[0].nodeValue;
 		var intitule = 	intituleArray[i].childNodes[0].nodeValue;
 		var categorie = categorieArray[i].childNodes[0].nodeValue;
 		var niveau = 	niveauArray[i].childNodes[0].nodeValue;
 		var image =		imageArray[i].childNodes[0].nodeValue;
+		var reponse =   reponseArray[i].childNodes[0].nodeValue;
 
 		// Put values of current iteration into question object.
-		questions.push({id: id, intitule: intitule, categorie: categorie, niveau: niveau, image: image});
+		//Création d'un nouvel élement sur le tableau question
+		questions.push({id: id, intitule: intitule, categorie: categorie, niveau: niveau, image: image, reponse: reponse});
+		//premier argument: son nom, deuxieume valeur : valeur au dessus)
 
 		if (questions[i] === undefined || questions[i].length == 0) {
     		console.log("XmlManager : Error during row[" + i +"] loading!");
@@ -43,9 +50,11 @@ function generateXml(xml) {
 	console.log("XmlManager : End of generation.");
 }
 
+
 function onLoadXmlJs(niveau){ 
 	setCategories(niveau);
 }
+
 
 // Set list of categorie into local storage
 function setCategories(niveau){
@@ -98,6 +107,7 @@ function setQuestionSerie(){
 	window.localStorage.setItem("Images", imgArray);
 
 	// Random position
+	// Création et remplissage d'un tableau vide (voir via phonegap sur navigateur)
 	var nums = [], numsLen = 20, maxNum = questionArray.length-1, num;
 	while (nums.length < numsLen) {
 	    num = Math.round(Math.random() * maxNum);
@@ -106,4 +116,6 @@ function setQuestionSerie(){
 	    }
 	}
 	window.localStorage.setItem("Random", nums);
+
+	//FAIRE UN COUP AVEC PHONEGAP ET LA CONSOLE A COTER POUR COMPRENDRE LA VIE
 }

@@ -13,8 +13,6 @@
 </head>
 <!---------------------------------------------------------------------------------------------->
 
-<!-- Quand tout est chargé, on lance la commande envoiBluetooth -->
-<body onLoad="envoiBluetooth();"> 
 
 <!--PREMIER ENCADRÉ-------------------------------------------------------------------------------------------->
     <div class="container">
@@ -147,7 +145,7 @@
 
             // Validate answer
             function valider(){
-                //APPEL DE LA FONCTION POUR FAIRE LE TRAITEMENT DE ...
+                
                 var trueResponse;
                 var response = window.localStorage.getItem("Responses").split(',')[random];
                 var reponseUser = document.getElementById('responseUser').value;
@@ -162,7 +160,6 @@
                     //TRAITEMENT
                     trueResponse = response;
                     break;
-
                 }
 
 
@@ -193,7 +190,7 @@
                 }
                 // Sinon mettre une notification mauvaise réponse et ne pas lancer le code en dessous
                 else{
-                M.toast({html: 'Réponse incorrecte.'})
+                M.toast({html: 'Réponse incorrecte.'});
                 }
 
             }
@@ -215,6 +212,3 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
-
-
-

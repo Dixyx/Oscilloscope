@@ -10,7 +10,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>img/background.jpg</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>Que le samedi</Reponse>
 	</Question>
 
 	<Question>
@@ -191,7 +191,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -200,7 +200,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 		<Question>
@@ -209,7 +209,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -218,7 +218,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -227,7 +227,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -236,7 +236,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -245,7 +245,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -254,7 +254,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -263,7 +263,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -272,7 +272,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -281,7 +281,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -290,7 +290,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 		<Question>
@@ -299,16 +299,16 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
 		<id>34</id>
-		<Intitule>Comment les poules fabriquent-elles les coquilles de leurs œufs ?</Intitule>
+		<Intitule>Quelle est l'amplitude du signal?</Intitule>
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -317,7 +317,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -326,7 +326,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -335,7 +335,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -344,7 +344,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -353,7 +353,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -362,7 +362,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse>amplitude</Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<!--QUESTION - CATEGORIE: OSCILLOSCOPE - NIVEAU: DIFFICILE !-->

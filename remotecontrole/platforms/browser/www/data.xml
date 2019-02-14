@@ -1,11 +1,16 @@
 <Questions>
+<!--DEBUT - GESTION DES QUESTIONS!-->
+
+<!--QUESTION - CATEGORIE: OSCILLOSCOPE!-->
+
+	<!--QUESTION - CATEGORIE: OSCILLOSCOPE - NIVEAU: FACILE !-->	
 	<Question>
 		<id>1</id>
 		<Intitule>Marteau ou couteau?</Intitule>
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>img/background.jpg</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -14,25 +19,25 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>img/otaku.jpg</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
 		<id>3</id>
-		<Intitule>Mangeur de Mouktou ou Tu veux qu'on s'tire l'oreille?</Intitule>
+		<Intitule>Harmonica ou Saxo?</Intitule>
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
 		<id>4</id>
-		<Intitule>Chiasse ou merde?</Intitule>
+		<Intitule>Train ou Avion?</Intitule>
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>OUI!</Reponse>
 	</Question>
 
 	<Question>
@@ -41,7 +46,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -50,7 +55,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 		<Question>
@@ -59,7 +64,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -68,7 +73,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -77,7 +82,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -86,7 +91,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -95,7 +100,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 		<Question>
@@ -104,7 +109,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -113,7 +118,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -122,7 +127,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -131,7 +136,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -140,7 +145,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -149,7 +154,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -158,7 +163,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -167,7 +172,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -176,25 +181,26 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
+	<!--QUESTION - CATEGORIE: OSCILLOSCOPE - NIVEAU: MOYEN !-->
 		<Question>
 		<id>21</id>
 		<Intitule>Quel a été le premier livre publié au monde ?</Intitule>
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
 		<id>22</id>
-		<Intitule>Pourquoi les filles se maquillent-elles ?</Intitule>
+		<Intitule>Pourquoi le maquillage ?</Intitule>
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 		<Question>
@@ -203,7 +209,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -212,7 +218,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -221,7 +227,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -230,7 +236,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -239,7 +245,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -248,7 +254,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -257,7 +263,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -266,7 +272,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -275,7 +281,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -284,7 +290,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 		<Question>
@@ -293,16 +299,16 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
 		<id>34</id>
-		<Intitule>Comment les poules fabriquent-elles les coquilles de leurs œufs ?</Intitule>
+		<Intitule>Quelle est l'amplitude du signal?</Intitule>
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -311,7 +317,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -320,7 +326,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -329,7 +335,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -338,7 +344,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -347,7 +353,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
 	<Question>
@@ -356,16 +362,17 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>A</Reponse>
 	</Question>
 
+	<!--QUESTION - CATEGORIE: OSCILLOSCOPE - NIVEAU: DIFFICILE !-->
 	<Question>
 		<id>41</id>
 		<Intitule>Qui devenait pirate ?</Intitule>
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -374,7 +381,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 		<Question>
@@ -383,7 +390,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -392,7 +399,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -401,7 +408,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -410,7 +417,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -419,7 +426,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -428,7 +435,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -437,7 +444,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -446,7 +453,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -455,7 +462,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -464,7 +471,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 		<Question>
@@ -473,7 +480,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -482,7 +489,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -491,7 +498,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -500,7 +507,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -509,7 +516,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -518,16 +525,16 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
 		<id>59</id>
-		<Intitule>Pourquoi les femmes ont-elles des seins ?</Intitule>
+		<Intitule>Pourquoi ?</Intitule>
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -536,6 +543,19 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
+
+
+<!--SI VOUS DESIREZ AJOUTER UNE QUESTION A LA CATEGORIE PRECEDENTE, MERCI DE LES PLACER AVANT CE POINT, EN SE FIANT AUX MODELES PRESENTÉS!-->
+<!---/////////////////////////////////////////!-->
+
+
+<!--SI VOUS DESIREZ CREER UNE CATEGORIE DE QUESTION, MERCI DE LES PLACER APRES CE POINT, EN SE FIANT AUX MODELES PRESENTÉS!-->
+
+<!--QUESTION - CATEGORIE: NON DEFINIE!-->
+
+
+
+<!--FIN - GESTION DES QUESTIONS!-->
 </Questions>

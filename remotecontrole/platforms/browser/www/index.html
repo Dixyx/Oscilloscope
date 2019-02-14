@@ -12,9 +12,11 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 </head>
+<!---------------------------------------------------------------------------------------------->
 
 <body> 
 
+<!--PREMIER ENCADRÉ-------------------------------------------------------------------------------------------->
     <div class="container">
         <div class="row bodyarea">
             <div class="col s12">
@@ -23,6 +25,7 @@
         </div>
 
 
+<!--DEUXIEME ENCADRÉ------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
             <div class="col s12 ">
                 <center>
@@ -32,10 +35,11 @@
         </div>
 
 
+<!--TROISIEME ENCADRÉ------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
             <div class="col s6">
-                <center>
-                    <button id="bluetooth" value="Bluetooth" type="button" class="waves-effect waves-light btn-small blue darken-3" onclick="onDeviceReady()">Bluetooth</button>
+                <center>        
+                    <button id="bluetooth" value="Bluetooth" type="button" class="waves-effect waves-light btn-small blue darken-3" onClick="openBluetooth()">Bluetooth</button>
                 </center>
             </div>
 
@@ -57,9 +61,9 @@
           <button class="waves-effect waves-light btn red accent-4" onClick="closeMac()">Annuler</button>
         </div>
       </div>
-
         
 
+<!--QUATRIEME ENCADRÉ-------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
             <div class="col s4 buttonColumn">
                 <center> <a href="niveau.html" class="waves-effect waves-light btn green darken-4" role="button">Start</a> </center>
@@ -78,23 +82,32 @@
         </div>
 
 
+<!--CINQUIEME ENCADRÉ-------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
-            <div class="col s12 ">
+<!--             <div class="col s12 ">
+                <center>
+                    Etudiants : ASENSIO, DULHOSTE, LARRIEU, RICHEZ
+                </center>
+            </div> -->
+
+                <div class="col s12 ">
                 <center>
                     Etudiants : ASENSIO, DULHOSTE, LARRIEU, RICHEZ
                 </center>
             </div>
+
+            <br>
+            <br>
+                <div class="col s12 ">
+                <center>
+                    <button  id="sendButton"  type="button" class="waves-effect waves-light btn-small red darken-4" onclick="envoiBluetooth()">ENVOI</button>
+                </center>
+            </div>
+
         </div>
-
-
     </div>
 
-
-
-          
-
-
-
+<!---------------------------------------------------------------------------------------------->
     <!-- Permet d'appeller le CSS pour la mise en forme de l'HTML -->
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <!-- Appel de Javascript -->
@@ -103,7 +116,4 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
 
 </body>
-
-
-
 </html>

@@ -12,9 +12,12 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 </head>
+<!---------------------------------------------------------------------------------------------->
+
 
 <body> 
 
+<!--PREMIER ENCADRÉ-------------------------------------------------------------------------------------------->
     <div class="container">
         <div class="row bodyarea">
             <div class="col s12">
@@ -23,19 +26,21 @@
         </div>
 
 
+<!--DEUXIEME ENCADRÉ------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
             <div class="col s12 ">
                 <center>
-                    <h5>ACCUEIL</h5>
+                    <h5>QUIZZ OSCILLOSCOPE</h5>
                 </center>
             </div>
         </div>
 
 
+<!--TROISIEME ENCADRÉ------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
             <div class="col s6">
-                <center>
-                    <button id="bluetooth" value="Bluetooth" type="button" class="waves-effect waves-light btn-small blue darken-3" onclick="onDeviceReady()">Bluetooth</button>
+                <center>        
+                    <button id="bluetooth" value="Bluetooth" type="button" class="waves-effect waves-light btn-small blue darken-3" onClick="openBluetooth()">Bluetooth</button>
                 </center>
             </div>
 
@@ -59,6 +64,7 @@
       </div>
         
 
+<!--QUATRIEME ENCADRÉ-------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
             <div class="col s12 buttonColumn">
                 <center> <h5> Veuillez choisir votre niveau de difficulté</h5> </center>
@@ -75,6 +81,7 @@
         </div>
 
 
+<!--CINQUIEME ENCADRÉ-------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
             <div class="col s12 buttonColumn">
                 <center> 
@@ -83,6 +90,8 @@
             </div>   
         </div>
 
+
+<!--SIXIEME ENCADRÉ-------------------------------------------------------------------------------------------->
         <div class="row bodyarea">
             <div class="col s12 ">
                 <center>
@@ -91,6 +100,10 @@
             </div>
         </div>
 
+
+
+
+<!--SAUVEGARDE LOCALE DU NIVEAU SELECTIONÉ----------------------------------------------------------------------------->
         <script>
             function saveLevel(niveau){
                 window.localStorage.setItem("Niveau", niveau);
