@@ -10,7 +10,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>img/background.jpg</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -19,7 +19,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>img/otaku.jpg</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -28,7 +28,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -37,7 +37,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>OUI!</Reponse>
 	</Question>
 
 	<Question>
@@ -46,7 +46,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -55,7 +55,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 		<Question>
@@ -64,7 +64,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -73,7 +73,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -82,7 +82,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -91,7 +91,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -100,7 +100,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 		<Question>
@@ -109,7 +109,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -118,7 +118,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -127,7 +127,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -136,7 +136,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -145,7 +145,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -154,7 +154,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -163,7 +163,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -172,7 +172,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -181,7 +181,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Facile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<!--QUESTION - CATEGORIE: OSCILLOSCOPE - NIVEAU: MOYEN !-->
@@ -191,7 +191,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -200,7 +200,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 		<Question>
@@ -209,7 +209,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -218,7 +218,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -227,7 +227,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -236,7 +236,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -245,7 +245,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -254,7 +254,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -263,7 +263,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -272,7 +272,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -281,7 +281,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -290,7 +290,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 		<Question>
@@ -299,7 +299,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -308,7 +308,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -317,7 +317,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -326,7 +326,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -335,7 +335,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -344,7 +344,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -353,7 +353,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -362,7 +362,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Moyen</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<!--QUESTION - CATEGORIE: OSCILLOSCOPE - NIVEAU: DIFFICILE !-->
@@ -372,7 +372,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -381,7 +381,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 		<Question>
@@ -390,7 +390,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -399,7 +399,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -408,7 +408,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -417,7 +417,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -426,7 +426,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -435,7 +435,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -444,7 +444,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -453,7 +453,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -462,7 +462,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -471,7 +471,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 		<Question>
@@ -480,7 +480,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -489,7 +489,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -498,7 +498,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -507,7 +507,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -516,7 +516,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -525,7 +525,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -534,7 +534,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 	<Question>
@@ -543,7 +543,7 @@
 		<Categorie>Osciloscope</Categorie>
 		<Niveau>Difficile</Niveau>
 		<Image>?</Image>
-		<Reponse></Reponse>
+		<Reponse>amplitude</Reponse>
 	</Question>
 
 

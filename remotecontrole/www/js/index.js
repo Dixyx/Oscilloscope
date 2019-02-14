@@ -1,9 +1,30 @@
 var mac = "00:06:66:DA:B2:E2";
 
-var forme = "S";
-var frequence = "500";
-var offset = "0";
-var generation = "R";
+
+
+function generationGrandeursRandom(){
+var frequence = Math.floor((Math.random() * 100) + 1); //Return a random number between 1 and 100
+var amp = Math.floor((Math.random() * 10) + 1); //Return a random number between 1 and 10
+
+//Randomisation de la variable generation
+var generationArray = ["R","S","E"];
+var posGeneration = Math.floor((Math.random() * generationArray.length) + 0);
+var generation = generationArray[posGeneration];
+
+//Randomisation de la variage forme
+var formeArray = ["S","P","T"];
+var posForme = Math.floor((Math.random() * formeArray.length) + 0);
+var forme = formeArray[posForme];
+
+
+
+//Stockage local des différents variables pour la réutilisation dans le XML (?), renseignement de son ID et de sa valeur
+window.localStorage.setItem("Forme",forme); 
+window.localStorage.setItem("Frequence",frequence);
+window.localStorage.setItem("Amplitude",amp);
+window.localStorage.setItem("Generation",generation);
+
+}
 
 
 function onDeviceReady() {
@@ -19,113 +40,42 @@ function onDeviceReady() {
 
 //Clique sur le bouton "Bluetooth"
 function openBluetooth(){ 
-
         document.addEventListener("deviceready", onDeviceReady, false);
-        bluetoothSerial.connect(mac,alert('Bien reçu, merci de vérifier le Bluetooth manuellement via la diode bleu'),false);
+        bluetoothSerial.connect(mac,alert('OK. Merci de vérifier le Bluetooth manuellement via la diode bleu'),false);
 }
 
 function envoiBluetooth(){
-        //LANCER CETTE FONCTION LORSQUE L'ON CLIQUE SUR LE BOUTON "START"
+        //LANCER CETTE FONCTION LORSQUE L'ON CLIQUE SUR LE BOUTON "Envoi"
 
         //STOCKER LA VALEURS PRISE PAR LES DONNEES ALEATOIRES POUR POUVOIR S'EN SERVIR COMME ELEMENT DE REPONSE
         //LA CONVERSION EN CHAINE DE CARACTERE SE FAIT A L'AIDE SUR '+'
 
+        generationGrandeursRandom();
 
         //Définition forme du signal
-        bluetoothSerial.write("WAS\n\r");
+        bluetoothSerial.write("WA"+forme+"\n\r");
         //Reste à faire ci dessus: randomiser la dernière lettre après WA entre: S,P,T
 
         bluetoothSerial.clear(alert('Génération du signal en cours'));
 
         //Définition fréquence du signal
-        bluetoothSerial.write("FA500\n\r");
+        bluetoothSerial.write("FA"+frequence+"\n\r");
         //Reste à faire ci dessus: randomiser la valeur en Hertz, entre 1 et 50
 
         bluetoothSerial.clear(alert('Génération du signal en cours'));
 
-        //Reglage de l'offset
-        bluetoothSerial.write("OA0\n\r");
-        //Reste à faire ci dessus: randomiser la valeur en Volt, entre 1 et ..?
+        //Reglage de l'amplitude
+        bluetoothSerial.write("AA"+amp+"\n\r");
+        //Reste à faire ci dessus: randomiser la valeur en XX, entre 1 et ..?
 
         bluetoothSerial.clear(alert('Génération du signal en cours'));
 
         //Génération du signal
-        bluetoothSerial.write("GAR\n\r");
+        bluetoothSerial.write("GA"+generation+"\n\r");
         //Reste à faire ci dessus: randomiser la dernière lettre: R (répetitive), S (unitaire), E (arrêt)
 
-        bluetoothSerial.clear(alert('Fin de génération du signal'));
+        bluetoothSerial.clear(alert('Fin de génération du signal')); //
 
-
-        //
-        // //Définition forme du signal
-        // bluetoothSerial.write("WA"+forme+"\n\r",alert('Commande 1 - Envoi bien effectué'),false);
-        // //Reste à faire ci dessus: randomiser la dernière lettre après WA entre: S,P,T
-
-        // bluetoothSerial.clear(alert('Génération du signal en cours'));
-
-        // //Définition fréquence du signal
-        // bluetoothSerial.write("FA"+frequence+"\n\r",alert('Commande 2 - Envoi bien effectué'),false);
-        // //Reste à faire ci dessus: randomiser la valeur en Hertz, entre 1 et 50
-
-        // bluetoothSerial.clear(alert('Génération du signal en cours'));
-
-        // //Reglage de l'offset
-        // bluetoothSerial.write("OA"+offset+"\n\r",alert('Commande 3 - Envoi bien effectué'),false);
-        // //Reste à faire ci dessus: randomiser la valeur en Volt, entre 1 et ..?
-
-        // bluetoothSerial.clear(alert('Génération du signal en cours'));
-
-        // //Génération du signal
-        // bluetoothSerial.write("GA"+generation+"\n\r",alert('Commande 4 - Envoi bien effectué'),false);
-        // //Reste à faire ci dessus: randomiser la dernière lettre: R (répetitive), S (unitaire), E (arrêt)
-
-        // bluetoothSerial.clear(alert('Fin de génération du signal'));
-
-
-        // var chaine1 = "WA";
-        // var chaine2 = "S";
-        // var chaire3 = "\n\r";
-        // var chaine4 = chaine1+chaine2+chaine3;
-
-        // var chaine5 = "FA";
-        // var chaine6 = "5";
-        // var chaire7 = "\n\r";
-        // var chaine8 = chaine5+chaine6+chaine7;
-
-        // var chaine9 = "WA";
-        // var chaine10 = "S";
-        // var chaire11 = "\n\r";
-        // var chaine12 = chaine9+chaine10+chaine11; 
-
-        // var chaine13 = "WA";
-        // var chaine14 = "S";
-        // var chaire15 = "\n\r";
-        // var chaine16 = chaine13+chaine14+chaine15;
-
-
-        // //Définition forme du signal
-        // bluetoothSerial.write(chaine4,alert('Commande 1 - Envoi bien effectué'));
-        // //Reste à faire ci dessus: randomiser la dernière lettre après WA entre: S,P,T
-
-        // bluetoothSerial.clear(alert('Génération du signal en cours'));
-
-        // //Définition fréquence du signal
-        // bluetoothSerial.write(chaine8,alert('Commande 2 - Envoi bien effectué'));
-        // //Reste à faire ci dessus: randomiser la valeur en Hertz, entre 1 et 50
-
-        // bluetoothSerial.clear(alert('Génération du signal en cours'));
-
-        // //Reglage de l'offset
-        // bluetoothSerial.write(chaine12,alert('Commande 3 - Envoi bien effectué'));
-        // //Reste à faire ci dessus: randomiser la valeur en Volt, entre 1 et ..?
-
-        // bluetoothSerial.clear(alert('Génération du signal en cours'));
-
-        // //Génération du signal
-        // bluetoothSerial.write(chaine16,alert('Commande 4 - Envoi bien effectué'));
-        // //Reste à faire ci dessus: randomiser la dernière lettre: R (répetitive), S (unitaire), E (arrêt)
-
-        // bluetoothSerial.clear(alert('Fin de génération du signal'));
 
 
 }

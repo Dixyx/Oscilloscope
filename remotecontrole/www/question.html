@@ -13,7 +13,8 @@
 </head>
 <!---------------------------------------------------------------------------------------------->
 
-<body> 
+<!-- Quand tout est chargé, on lance la commande envoiBluetooth -->
+<body onLoad="envoiBluetooth();"> 
 
 <!--PREMIER ENCADRÉ-------------------------------------------------------------------------------------------->
     <div class="container">
@@ -77,7 +78,7 @@
             </div>
 
             <div class="col s12 buttonColumn">
-                <center> <input type="text"> </center>
+                <center> <input id="responseUser" type="text"> </center>
             </div>
 
             <div class="col s12 buttonColumn">
@@ -110,8 +111,14 @@
 
 
 
+
 <!--GESTION DU QUESTIONNAIRE-------------------------------------------------------->
         <script>
+
+
+            //Appeller la fonction de generation 
+            
+
             var position;
 
 
@@ -125,8 +132,8 @@
 
             document.getElementById('position').innerHTML = "Question "+ position +"/20";
 
-            var random = localStorage.getItem("Random").split(',')[position-1];
-            var question = window.localStorage.getItem("Questions").split(',')[random];
+            var random = localStorage.getItem("Random").split(',')[position-1]; //Separe tout les paramètres en fonction 
+            var question = window.localStorage.getItem("Questions").split(',')[random]; //égale à une question en position random
             var imgPath = window.localStorage.getItem("Images").split(',')[random];
 
             document.getElementById('intitule').innerHTML = question;
@@ -140,14 +147,27 @@
 
             // Validate answer
             function valider(){
+                //APPEL DE LA FONCTION POUR FAIRE LE TRAITEMENT DE ...
+                var trueResponse;
+                var response = window.localStorage.getItem("Responses").split(',')[random];
+                var reponseUser = document.getElementById('responseUser').value;
 
-                // Récupérer la réponse
-                // -----> ICI <-----
-                // var reponse = ******;
-                // var reponseUser = document.getElementById('position').value;
+                switch (response) {
+                    case "amplitude": 
+                    //TRAITEMENT
+                trueResponse = window.localStorage.getItem("Amplitude");
+                    break;
+
+                    default: 
+                    //TRAITEMENT
+                    trueResponse = response;
+                    break;
+
+                }
+
 
                 //Comparer la bonne réponse et la réponse utilisateur
-                // if (reponse = reponseUser){
+                if (trueResponse == reponseUser){
                     var categorieArray = window.localStorage.getItem("Categories").split(',');
                     var categorieEnCours = window.localStorage.getItem("En cours");
 
@@ -164,17 +184,17 @@
 
                         window.location = "categorie.html";
                     }
-                    else{
+
+
+                    else {
                         window.localStorage.setItem("Position", parseInt(position)+1);
                         window.location = "question.html";
                     }
-                //}
+                }
                 // Sinon mettre une notification mauvaise réponse et ne pas lancer le code en dessous
-                //else{
-                // M.toast({html: 'Réponse incorrecte.'})
-                //}
-
-
+                else{
+                M.toast({html: 'Réponse incorrecte.'})
+                }
 
             }
         </script>
@@ -185,12 +205,16 @@
 <!---------------------------------------------------------------------------------------------->
     <!-- Permet d'appeller le CSS pour la mise en forme de l'HTML -->
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-    <!-- Appel de Javascript -->
-    <script type="application/javascript" src="js/index.js"></script>
+
     <!-- Javascript file which allows to manipulate xml data file -->
     <script type="text/javascript" src="js/xmlManager.js"></script>
+    <!-- Appel de Javascript -->
+    <script type="application/javascript" src="js/index.js"></script>
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
+
+
+
